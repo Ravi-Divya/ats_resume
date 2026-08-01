@@ -1,0 +1,17 @@
+# Render Blueprint: https://render.com/docs/blueprint-spec
+# Deploy this project by pushing this repo to GitHub and connecting it to Render,
+# or run: render blueprint launch
+services:
+  - type: web
+    name: resume-ats-analyzer
+    runtime: node
+    plan: free
+    buildCommand: npm ci && npm run build
+    startCommand: npm run start
+    healthCheckPath: /
+    envVars:
+      - key: NODE_VERSION
+        value: 22.14.0
+      # Set this in the Render dashboard (Environment tab) after the first deploy:
+      - key: GROQ_API_KEY
+        sync: false

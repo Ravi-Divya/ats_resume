@@ -1,0 +1,44 @@
+
+> resume-ats-analyzer@1.0.0 dev
+> next dev
+
+▲ Next.js 16.2.12 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.1.37:3000
+- Environments: .env.local
+✓ Ready in 1890ms
+
+[browser] Can't perform a React state update on a component that hasn't mounted yet. This indicates that you have a side-effect in your render function that asynchronously tries to update the component. Move this work to useEffect instead. 
+ GET /home 200 in 1529ms (next.js: 665ms, application-code: 863ms)
+ GET /home 200 in 275ms (next.js: 76ms, application-code: 199ms)
+ GET /home 200 in 213ms (next.js: 15ms, application-code: 197ms)
+ GET /home 200 in 121ms (next.js: 15ms, application-code: 106ms)
+ GET / 200 in 366ms (next.js: 149ms, application-code: 217ms)
+ GET /home 200 in 179ms (next.js: 22ms, application-code: 157ms)
+ GET /sw.js 404 in 258ms (next.js: 104ms, application-code: 154ms)
+ GET /analyzer 200 in 323ms (next.js: 127ms, application-code: 196ms)
+ GET /templates 200 in 239ms (next.js: 63ms, application-code: 177ms)
+ GET /templates/classic-professional 200 in 960ms (next.js: 751ms, application-code: 209ms)
+ GET /sw.js 404 in 75ms (next.js: 13ms, application-code: 62ms)
+ GET /templates 200 in 172ms (next.js: 13ms, application-code: 159ms)
+ GET /templates 200 in 203ms (next.js: 12ms, application-code: 191ms)
+ GET /sw.js 404 in 169ms (next.js: 34ms, application-code: 135ms)
+ GET /home 200 in 224ms (next.js: 17ms, application-code: 207ms)
+ GET /home 200 in 122ms (next.js: 20ms, application-code: 102ms)
+ GET /analyzer 200 in 98ms (next.js: 19ms, application-code: 79ms)
+ GET /templates 200 in 145ms (next.js: 29ms, application-code: 115ms)
+ GET /home 200 in 122ms (next.js: 34ms, application-code: 88ms)
+ GET /analyzer 200 in 64ms (next.js: 14ms, application-code: 50ms)
+ GET /home 200 in 107ms (next.js: 18ms, application-code: 89ms)
+ GET /sw.js 404 in 57ms (next.js: 16ms, application-code: 40ms)
+✓ Compiled in 2.3s
+ GET /home 200 in 444ms (next.js: 238ms, application-code: 206ms)
+ GET /home 200 in 123ms (next.js: 24ms, application-code: 100ms)
+ GET /analyzer 200 in 455ms (next.js: 111ms, application-code: 344ms)
+ GET /templates 200 in 655ms (next.js: 173ms, application-code: 482ms)
+ GET /home 200 in 412ms (next.js: 24ms, application-code: 388ms)
+ GET /sw.js 404 in 249ms (next.js: 78ms, application-code: 171ms)
+ GET /analyzer 200 in 110ms (next.js: 25ms, application-code: 85ms)
+ GET /templates 200 in 100ms (next.js: 20ms, application-code: 80ms)
+ GET /home 200 in 100ms (next.js: 21ms, application-code: 79ms)
+ GET /sw.js 404 in 95ms (next.js: 17ms, application-code: 78ms)

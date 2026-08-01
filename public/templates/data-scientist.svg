@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 780">
+  <rect width="600" height="780" fill="#ffffff"/>
+  <rect x="1" y="1" width="598" height="778" fill="none" stroke="#e2e8f0" stroke-width="2"/>
+  <rect width="170" height="780" fill="#f3effc"/>
+  <rect x="35" y="40" width="100" height="100" rx="50" fill="#7c3aed"/>
+  <text x="85" y="88" font-family="Arial, sans-serif" font-size="34" font-weight="bold" fill="#ffffff" text-anchor="middle">SJ</text>
+  <text x="85" y="165" font-family="Georgia, serif" font-size="20" font-weight="bold" fill="#4c1d95" text-anchor="middle">Sarah Johnson</text>
+  <text x="85" y="190" font-family="Arial, sans-serif" font-size="10" fill="#7c3aed" text-anchor="middle">Senior Software Engineer</text>
+  <text x="40" y="240" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#4c1d95">CONTACT</text>
+  <rect x="40" y="252" width="90" height="6" rx="3" fill="#c4b5fd"/>
+  <text x="40" y="280" font-family="Arial, sans-serif" font-size="10" fill="#6d28d9">sarah@email.com</text>
+  <text x="40" y="298" font-family="Arial, sans-serif" font-size="10" fill="#6d28d9">(555) 123-4567</text>
+  <text x="40" y="316" font-family="Arial, sans-serif" font-size="10" fill="#6d28d9">San Francisco, CA</text>
+  <text x="40" y="356" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#4c1d95">SKILLS</text>
+  <rect x="40" y="368" width="90" height="6" rx="3" fill="#c4b5fd"/>
+  <rect x="40" y="382" width="80" height="18" rx="9" fill="#ede9fe"/>
+  <rect x="40" y="408" width="90" height="18" rx="9" fill="#ede9fe"/>
+  <rect x="40" y="434" width="70" height="18" rx="9" fill="#ede9fe"/>
+  <rect x="40" y="460" width="85" height="18" rx="9" fill="#ede9fe"/>
+  <rect x="40" y="486" width="75" height="18" rx="9" fill="#ede9fe"/>
+  <rect x="40" y="512" width="90" height="18" rx="9" fill="#ede9fe"/>
+  <text x="210" y="70" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#7c3aed">SUMMARY</text>
+  <rect x="210" y="84" width="350" height="8" rx="4" fill="#e2e8f0"/>
+  <rect x="210" y="100" width="310" height="8" rx="4" fill="#e2e8f0"/>
+  <text x="210" y="146" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#7c3aed">EXPERIENCE</text>
+  <rect x="210" y="160" width="230" height="9" rx="4" fill="#334155"/>
+  <rect x="470" y="160" width="90" height="8" rx="4" fill="#cbd5e1"/>
+  <rect x="222" y="186" width="320" height="8" rx="4" fill="#e2e8f0"/>
+  <rect x="222" y="202" width="280" height="8" rx="4" fill="#e2e8f0"/>
+  <rect x="210" y="240" width="230" height="9" rx="4" fill="#334155"/>
+  <rect x="470" y="240" width="80" height="8" rx="4" fill="#cbd5e1"/>
+  <rect x="222" y="266" width="300" height="8" rx="4" fill="#e2e8f0"/>
+  <text x="210" y="320" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#7c3aed">EDUCATION</text>
+  <rect x="210" y="334" width="240" height="9" rx="4" fill="#334155"/>
+  <rect x="210" y="352" width="200" height="8" rx="4" fill="#cbd5e1"/>
+  <text x="210" y="400" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#7c3aed">PROJECTS</text>
+  <rect x="210" y="414" width="200" height="9" rx="4" fill="#334155"/>
+  <rect x="222" y="440" width="310" height="8" rx="4" fill="#e2e8f0"/>
+  <rect x="222" y="456" width="260" height="8" rx="4" fill="#e2e8f0"/>
+</svg>
