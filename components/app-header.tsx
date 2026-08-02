@@ -8,7 +8,7 @@ import { getUser, signOut as authSignOut } from '@/lib/auth'
 import { Button } from '@/components/ui/button'
 
 const navLinks = [
-  { href: '/home', label: 'Dashboard', icon: Home },
+  { href: '/home', label: 'Home', icon: Home },
   { href: '/analyzer', label: 'Analyzer', icon: Gauge },
   { href: '/templates', label: 'Templates', icon: LayoutTemplate },
 ]
