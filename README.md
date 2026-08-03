@@ -1,11 +1,5 @@
 # ResumeATS — ATS Resume Analyzer & Builder
 
-[![Next.js](https://img.shields.io/badge/Next.js-16-black?logo=next.js)](https://nextjs.org)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.7-blue?logo=typescript)](https://www.typescriptlang.org)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4-38bdf8?logo=tailwindcss)](https://tailwindcss.com)
-[![Groq](https://img.shields.io/badge/AI-Groq-f55036?logo=groq)](https://groq.com)
-[![Deploy](https://img.shields.io/badge/Deploy-Render-46e3b7?logo=render)](https://render.com)
-
 A production-ready SaaS web app that uses **Groq's fast LLM API** to analyze resumes for **Applicant Tracking System (ATS)** compatibility and helps job seekers build ATS-optimized resumes from 6 professionally designed templates.
 
 > **75% of resumes are rejected by ATS software before a human reads them.** ResumeATS tells you exactly why yours gets filtered out — and gives you the tools to fix it.
@@ -67,9 +61,9 @@ Live Link:https://atsresume-ravidivya.onrender.com
 
 ### Prerequisites
 
-- **Node.js 22+** (recommended; 20.9+ works)
+- **Node.js 22+**
 - **npm 10+**
-- A free [Groq API key](https://console.groq.com) (rate-limited free tier available)
+- A API key
 
 ### 1. Install dependencies
 
@@ -96,8 +90,6 @@ GROQ_API_KEY=your-groq-api-key
 ```bash
 npm run dev
 ```
-
-Open [http://localhost:3000](http://localhost:3000).
 
 ### Scripts
 
@@ -133,29 +125,6 @@ To keep deployment dead-simple and free, accounts and saved resumes live in your
 - **Session** — persists until you sign out or clear browser data
 
 > For a production SaaS with cross-device sync and email auth, swap `lib/auth.ts` for a real auth provider (Supabase, Clerk, NextAuth) — the pages already call a simple `signIn`/`signUp`/`getUser` interface.
-
----
-
-## 📦 Deploying to Render
-
-### Option A — Blueprint (recommended)
-
-1. Push this project to a GitHub repository (`.env*` files are already gitignored)
-2. In [Render](https://render.com), click **New → Blueprint**
-3. Connect your repo — Render auto-detects `render.yaml` and creates the web service
-4. Under the service **Environment** tab, set `GROQ_API_KEY`
-5. Deploy and wait for the build to finish
-
-### Option B — Manual
-
-1. **New → Web Service**, connect your GitHub repo
-2. Settings:
-   - **Build Command:** `npm ci && npm run build`
-   - **Start Command:** `npm run start`
-   - **Runtime:** Node 22
-   - **Health Check Path:** `/`
-3. Add `GROQ_API_KEY` as an environment variable
-4. Deploy
 
 ---
 
@@ -208,20 +177,4 @@ To keep deployment dead-simple and free, accounts and saved resumes live in your
 
 ---
 
-## 🧪 Environment Variables
-
-| Variable | Required | Location | Description |
-| --- | --- | --- | --- |
-| `GROQ_API_KEY` | ✅ (for AI scoring) | Server only | Groq API key from [console.groq.com](https://console.groq.com) |
-
-> No public keys are needed — the app has no other external dependencies.
-
----
-
-## 🤝 Contributing
-
-1. Fork the repo
-2. Create a feature branch: `git checkout -b feat/your-feature`
-3. Commit your changes
-4. Push and open a pull request
 
